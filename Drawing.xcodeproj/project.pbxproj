@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE098EED1EEB7A4500FE294A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098EEC1EEB7A4500FE294A /* main.m */; };
+		CE098EF01EEB7A4500FE294A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098EEF1EEB7A4500FE294A /* AppDelegate.m */; };
+		CE098EF81EEB7A4500FE294A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE098EF71EEB7A4500FE294A /* Assets.xcassets */; };
+		CE098EFB1EEB7A4500FE294A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE098EF91EEB7A4500FE294A /* LaunchScreen.storyboard */; };
+		CE098F091EEB7A5800FE294A /* DrawLineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F031EEB7A5800FE294A /* DrawLineVC.m */; };
+		CE098F0A1EEB7A5800FE294A /* DrawShapeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F051EEB7A5800FE294A /* DrawShapeVC.m */; };
+		CE098F0B1EEB7A5800FE294A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE098F061EEB7A5800FE294A /* Main.storyboard */; };
+		CE098F0C1EEB7A5800FE294A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F081EEB7A5800FE294A /* ViewController.m */; };
+		CE098F151EEB96FE00FE294A /* DrawProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F141EEB96FE00FE294A /* DrawProgressVC.m */; };
+		CE098F1B1EECB0E800FE294A /* DrawPieChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F1A1EECB0E800FE294A /* DrawPieChartVC.m */; };
+		CE098F211EECC18D00FE294A /* DrawHistogramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F201EECC18D00FE294A /* DrawHistogramVC.m */; };
+		CE098F241EECDEA800FE294A /* DrawTextAndImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F231EECDEA800FE294A /* DrawTextAndImageVC.m */; };
+		CE098F271EEDF9D500FE294A /* DrawImageMarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F261EEDF9D500FE294A /* DrawImageMarkVC.m */; };
+		CE098F2A1EEE332000FE294A /* DrawMatrixVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F291EEE332000FE294A /* DrawMatrixVC.m */; };
+		CE098F681EEEBE6B00FE294A /* DrawScreenClipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F671EEEBE6B00FE294A /* DrawScreenClipVC.m */; };
+		CE098F6B1EEECD4200FE294A /* DrawPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE098F6A1EEECD4200FE294A /* DrawPictureVC.m */; };
+		CE7A1A771EF043CF00C07ACE /* DrawingBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A1A761EF043CF00C07ACE /* DrawingBoardVC.m */; };
+		CEF308971EEFB7F900DF4BC8 /* DrawPictureClearVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF308961EEFB7F900DF4BC8 /* DrawPictureClearVC.m */; };
+		CEF3089A1EEFC40400DF4BC8 /* DrawUnlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF308991EEFC40400DF4BC8 /* DrawUnlockVC.m */; };
+		CEF3089D1EEFDC3D00DF4BC8 /* DrawImageClipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF3089C1EEFDC3D00DF4BC8 /* DrawImageClipVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE098EE81EEB7A4500FE294A /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE098EEC1EEB7A4500FE294A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE098EEE1EEB7A4500FE294A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE098EEF1EEB7A4500FE294A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE098EF71EEB7A4500FE294A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE098EFA1EEB7A4500FE294A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE098EFC1EEB7A4500FE294A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE098F021EEB7A5800FE294A /* DrawLineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineVC.h; sourceTree = "<group>"; };
+		CE098F031EEB7A5800FE294A /* DrawLineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineVC.m; sourceTree = "<group>"; };
+		CE098F041EEB7A5800FE294A /* DrawShapeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShapeVC.h; sourceTree = "<group>"; };
+		CE098F051EEB7A5800FE294A /* DrawShapeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShapeVC.m; sourceTree = "<group>"; };
+		CE098F061EEB7A5800FE294A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE098F071EEB7A5800FE294A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE098F081EEB7A5800FE294A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE098F131EEB96FE00FE294A /* DrawProgressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawProgressVC.h; sourceTree = "<group>"; };
+		CE098F141EEB96FE00FE294A /* DrawProgressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawProgressVC.m; sourceTree = "<group>"; };
+		CE098F191EECB0E800FE294A /* DrawPieChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPieChartVC.h; sourceTree = "<group>"; };
+		CE098F1A1EECB0E800FE294A /* DrawPieChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPieChartVC.m; sourceTree = "<group>"; };
+		CE098F1F1EECC18D00FE294A /* DrawHistogramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawHistogramVC.h; sourceTree = "<group>"; };
+		CE098F201EECC18D00FE294A /* DrawHistogramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawHistogramVC.m; sourceTree = "<group>"; };
+		CE098F221EECDEA800FE294A /* DrawTextAndImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTextAndImageVC.h; sourceTree = "<group>"; };
+		CE098F231EECDEA800FE294A /* DrawTextAndImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawTextAndImageVC.m; sourceTree = "<group>"; };
+		CE098F251EEDF9D500FE294A /* DrawImageMarkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageMarkVC.h; sourceTree = "<group>"; };
+		CE098F261EEDF9D500FE294A /* DrawImageMarkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageMarkVC.m; sourceTree = "<group>"; };
+		CE098F281EEE332000FE294A /* DrawMatrixVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawMatrixVC.h; sourceTree = "<group>"; };
+		CE098F291EEE332000FE294A /* DrawMatrixVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMatrixVC.m; sourceTree = "<group>"; };
+		CE098F661EEEBE6B00FE294A /* DrawScreenClipVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawScreenClipVC.h; sourceTree = "<group>"; };
+		CE098F671EEEBE6B00FE294A /* DrawScreenClipVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawScreenClipVC.m; sourceTree = "<group>"; };
+		CE098F691EEECD4200FE294A /* DrawPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPictureVC.h; sourceTree = "<group>"; };
+		CE098F6A1EEECD4200FE294A /* DrawPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPictureVC.m; sourceTree = "<group>"; };
+		CE7A1A751EF043CF00C07ACE /* DrawingBoardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardVC.h; sourceTree = "<group>"; };
+		CE7A1A761EF043CF00C07ACE /* DrawingBoardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardVC.m; sourceTree = "<group>"; };
+		CEF308951EEFB7F900DF4BC8 /* DrawPictureClearVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPictureClearVC.h; sourceTree = "<group>"; };
+		CEF308961EEFB7F900DF4BC8 /* DrawPictureClearVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPictureClearVC.m; sourceTree = "<group>"; };
+		CEF308981EEFC40400DF4BC8 /* DrawUnlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawUnlockVC.h; sourceTree = "<group>"; };
+		CEF308991EEFC40400DF4BC8 /* DrawUnlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawUnlockVC.m; sourceTree = "<group>"; };
+		CEF3089B1EEFDC3D00DF4BC8 /* DrawImageClipVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawImageClipVC.h; sourceTree = "<group>"; };
+		CEF3089C1EEFDC3D00DF4BC8 /* DrawImageClipVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawImageClipVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE098EE51EEB7A4500FE294A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE098EDF1EEB7A4500FE294A = {
+			isa = PBXGroup;
+			children = (
+				CE098EEA1EEB7A4500FE294A /* Drawing */,
+				CE098EE91EEB7A4500FE294A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE098EE91EEB7A4500FE294A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE098EE81EEB7A4500FE294A /* Drawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE098EEA1EEB7A4500FE294A /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				CE098EEE1EEB7A4500FE294A /* AppDelegate.h */,
+				CE098EEF1EEB7A4500FE294A /* AppDelegate.m */,
+				CE098F071EEB7A5800FE294A /* ViewController.h */,
+				CE098F081EEB7A5800FE294A /* ViewController.m */,
+				CE098F021EEB7A5800FE294A /* DrawLineVC.h */,
+				CE098F031EEB7A5800FE294A /* DrawLineVC.m */,
+				CE098F041EEB7A5800FE294A /* DrawShapeVC.h */,
+				CE098F051EEB7A5800FE294A /* DrawShapeVC.m */,
+				CE098F131EEB96FE00FE294A /* DrawProgressVC.h */,
+				CE098F141EEB96FE00FE294A /* DrawProgressVC.m */,
+				CE098F191EECB0E800FE294A /* DrawPieChartVC.h */,
+				CE098F1A1EECB0E800FE294A /* DrawPieChartVC.m */,
+				CE098F1F1EECC18D00FE294A /* DrawHistogramVC.h */,
+				CE098F201EECC18D00FE294A /* DrawHistogramVC.m */,
+				CE098F221EECDEA800FE294A /* DrawTextAndImageVC.h */,
+				CE098F231EECDEA800FE294A /* DrawTextAndImageVC.m */,
+				CE098F281EEE332000FE294A /* DrawMatrixVC.h */,
+				CE098F291EEE332000FE294A /* DrawMatrixVC.m */,
+				CE098F251EEDF9D500FE294A /* DrawImageMarkVC.h */,
+				CE098F261EEDF9D500FE294A /* DrawImageMarkVC.m */,
+				CEF3089B1EEFDC3D00DF4BC8 /* DrawImageClipVC.h */,
+				CEF3089C1EEFDC3D00DF4BC8 /* DrawImageClipVC.m */,
+				CE098F661EEEBE6B00FE294A /* DrawScreenClipVC.h */,
+				CE098F671EEEBE6B00FE294A /* DrawScreenClipVC.m */,
+				CE098F691EEECD4200FE294A /* DrawPictureVC.h */,
+				CE098F6A1EEECD4200FE294A /* DrawPictureVC.m */,
+				CEF308951EEFB7F900DF4BC8 /* DrawPictureClearVC.h */,
+				CEF308961EEFB7F900DF4BC8 /* DrawPictureClearVC.m */,
+				CEF308981EEFC40400DF4BC8 /* DrawUnlockVC.h */,
+				CEF308991EEFC40400DF4BC8 /* DrawUnlockVC.m */,
+				CE7A1A751EF043CF00C07ACE /* DrawingBoardVC.h */,
+				CE7A1A761EF043CF00C07ACE /* DrawingBoardVC.m */,
+				CE098F061EEB7A5800FE294A /* Main.storyboard */,
+				CE098EF71EEB7A4500FE294A /* Assets.xcassets */,
+				CE098EF91EEB7A4500FE294A /* LaunchScreen.storyboard */,
+				CE098EFC1EEB7A4500FE294A /* Info.plist */,
+				CE098EEB1EEB7A4500FE294A /* Supporting Files */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		CE098EEB1EEB7A4500FE294A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE098EEC1EEB7A4500FE294A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE098EE71EEB7A4500FE294A /* Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE098EFF1EEB7A4500FE294A /* Build configuration list for PBXNativeTarget "Drawing" */;
+			buildPhases = (
+				CE098EE41EEB7A4500FE294A /* Sources */,
+				CE098EE51EEB7A4500FE294A /* Frameworks */,
+				CE098EE61EEB7A4500FE294A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawing;
+			productName = Drawing;
+			productReference = CE098EE81EEB7A4500FE294A /* Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE098EE01EEB7A4500FE294A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaoyi;
+				TargetAttributes = {
+					CE098EE71EEB7A4500FE294A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MWL7XFM978;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE098EE31EEB7A4500FE294A /* Build configuration list for PBXProject "Drawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE098EDF1EEB7A4500FE294A;
+			productRefGroup = CE098EE91EEB7A4500FE294A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE098EE71EEB7A4500FE294A /* Drawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE098EE61EEB7A4500FE294A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE098F0B1EEB7A5800FE294A /* Main.storyboard in Resources */,
+				CE098EFB1EEB7A4500FE294A /* LaunchScreen.storyboard in Resources */,
+				CE098EF81EEB7A4500FE294A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE098EE41EEB7A4500FE294A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE098F1B1EECB0E800FE294A /* DrawPieChartVC.m in Sources */,
+				CE098F211EECC18D00FE294A /* DrawHistogramVC.m in Sources */,
+				CE098F681EEEBE6B00FE294A /* DrawScreenClipVC.m in Sources */,
+				CE098F6B1EEECD4200FE294A /* DrawPictureVC.m in Sources */,
+				CE098F0A1EEB7A5800FE294A /* DrawShapeVC.m in Sources */,
+				CE098EF01EEB7A4500FE294A /* AppDelegate.m in Sources */,
+				CE7A1A771EF043CF00C07ACE /* DrawingBoardVC.m in Sources */,
+				CE098EED1EEB7A4500FE294A /* main.m in Sources */,
+				CEF308971EEFB7F900DF4BC8 /* DrawPictureClearVC.m in Sources */,
+				CE098F271EEDF9D500FE294A /* DrawImageMarkVC.m in Sources */,
+				CE098F151EEB96FE00FE294A /* DrawProgressVC.m in Sources */,
+				CE098F241EECDEA800FE294A /* DrawTextAndImageVC.m in Sources */,
+				CEF3089D1EEFDC3D00DF4BC8 /* DrawImageClipVC.m in Sources */,
+				CEF3089A1EEFC40400DF4BC8 /* DrawUnlockVC.m in Sources */,
+				CE098F091EEB7A5800FE294A /* DrawLineVC.m in Sources */,
+				CE098F2A1EEE332000FE294A /* DrawMatrixVC.m in Sources */,
+				CE098F0C1EEB7A5800FE294A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE098EF91EEB7A4500FE294A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE098EFA1EEB7A4500FE294A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE098EFD1EEB7A4500FE294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE098EFE1EEB7A4500FE294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE098F001EEB7A4500FE294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MWL7XFM978;
+				INFOPLIST_FILE = Drawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyi.Drawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE098F011EEB7A4500FE294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MWL7XFM978;
+				INFOPLIST_FILE = Drawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoyi.Drawing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE098EE31EEB7A4500FE294A /* Build configuration list for PBXProject "Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE098EFD1EEB7A4500FE294A /* Debug */,
+				CE098EFE1EEB7A4500FE294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE098EFF1EEB7A4500FE294A /* Build configuration list for PBXNativeTarget "Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE098F001EEB7A4500FE294A /* Debug */,
+				CE098F011EEB7A4500FE294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE098EE01EEB7A4500FE294A /* Project object */;
+}
